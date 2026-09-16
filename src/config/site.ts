@@ -1,3 +1,13 @@
+// Resolves the canonical site URL for metadata/OG/sitemap without extra config:
+// 1. NEXT_PUBLIC_SITE_URL — set this to your real domain once you have one.
+// 2. VERCEL_URL — auto-provided by Vercel for production and preview deployments.
+// 3. Fallback placeholder for local development.
+const resolveSiteUrl = () => {
+  if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return "https://afh-portfolio.example.com";
+};
+
 export const siteConfig = {
   name: "Ahmad Fauzy Hafidz",
   initials: "AFH",
@@ -7,7 +17,7 @@ export const siteConfig = {
     "I design, operate, and automate enterprise network and security infrastructure — combining networking, cybersecurity, infrastructure, and AI to solve complex operational problems.",
   location: "Indonesia",
   availability: "Available for Engineering & Infrastructure Projects",
-  url: "https://afh-portfolio.example.com",
+  url: resolveSiteUrl(),
   email: "contact@example.com",
   links: {
     linkedin: "https://linkedin.com/in/your-handle",
