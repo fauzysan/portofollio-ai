@@ -14,7 +14,7 @@ export function Experience() {
         <SectionHeading
           eyebrow="Career"
           title="Professional Journey"
-          description="From ISP network operations to AI-assisted infrastructure — each role built on the last."
+          description="From ISP network operations to enterprise network security — each role built on the last."
         />
 
         <div className="relative flex flex-col">

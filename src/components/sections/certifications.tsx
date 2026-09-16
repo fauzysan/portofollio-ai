@@ -15,7 +15,7 @@ export function Certifications() {
         <SectionHeading
           eyebrow="Credentials"
           title="Certifications"
-          description="Vendor and industry credentials across networking, security, and infrastructure. Placeholder data — replace with your own."
+          description="Vendor and industry credentials across networking, security, and infrastructure."
         />
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

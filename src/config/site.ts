@@ -9,7 +9,7 @@ const resolveSiteUrl = () => {
 };
 
 export const siteConfig = {
-  name: "Ahmad Fauzy Hafidz",
+  name: "Ahmad Fauzi Hafidz",
   initials: "AFH",
   role: "Network Security Engineer × AI Engineer",
   tagline: "Building secure networks, intelligent automation, and resilient infrastructure.",
@@ -22,7 +22,7 @@ export const siteConfig = {
   links: {
     linkedin: "https://linkedin.com/in/your-handle",
     github: "https://github.com/your-handle",
-    cv: "/cv/ahmad-fauzy-hafidz-cv.pdf",
+    cv: "/cv/ahmad-fauzi-hafidz-cv.pdf",
   },
   nav: [
     { label: "About", href: "#about" },
