@@ -5,7 +5,7 @@
 const resolveSiteUrl = () => {
   if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
   if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
-  return "https://afh-portfolio.example.com";
+  return "https://portofollio-ai.vercel.app";
 };
 
 export const siteConfig = {
@@ -18,10 +18,10 @@ export const siteConfig = {
   location: "Indonesia",
   availability: "Available for Engineering & Infrastructure Projects",
   url: resolveSiteUrl(),
-  email: "contact@example.com",
+  email: "fauzyhafidz123@gmail.com",
   links: {
-    linkedin: "https://linkedin.com/in/your-handle",
-    github: "https://github.com/your-handle",
+    linkedin: "https://linkedin.com/in/fauzi-hafidz-077230240",
+    github: "https://github.com/fauzysan",
     cv: "/cv/ahmad-fauzi-hafidz-cv.pdf",
   },
   nav: [

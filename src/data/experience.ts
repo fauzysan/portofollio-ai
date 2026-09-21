@@ -13,7 +13,7 @@ export const experienceEntries: ExperienceEntry[] = [
     id: "noc",
     period: "2024 — 2025",
     title: "Network Operations Center (NOC)",
-    organization: "Internet Service Provider (add company name)",
+    organization: "Internet Service Provider",
     summary:
       "Monitored and maintained ISP-scale network infrastructure across a 24/7 NOC rotation, keeping uptime and routing stability front and center.",
     responsibilities: [
@@ -30,7 +30,7 @@ export const experienceEntries: ExperienceEntry[] = [
     id: "network-security-engineer",
     period: "2025 — Present",
     title: "Network Security Engineer",
-    organization: "Enterprise Client (add company name)",
+    organization: "Enterprise Client",
     summary:
       "Own the design, deployment, and hardening of enterprise firewall and VPN infrastructure across multiple sites.",
     responsibilities: [
