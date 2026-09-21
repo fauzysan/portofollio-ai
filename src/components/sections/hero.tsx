@@ -30,6 +30,15 @@ export function Hero() {
             <span className="font-mono text-xs text-muted">{siteConfig.availability}</span>
           </motion.div>
 
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.05 }}
+            className="font-mono text-sm uppercase tracking-[0.25em] text-accent-cyan"
+          >
+            {siteConfig.name}
+          </motion.p>
+
           <motion.h1
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
